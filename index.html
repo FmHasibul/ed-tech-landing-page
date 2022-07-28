@@ -7,124 +7,376 @@
     <title>Pro Learner</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-        <!-- Fonts  -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-        <!-- coustome Style  -->
-        <style>
-            body{
-                font-family: 'Poppins', sans-serif;;
-            }
-            .banner-btn{
-                background-color: #289BDE;
-            }
-            .overlay {
-    position:absolute;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
-    background-color:rgba(0, 0, 0, 0.276);
-    z-index:1;
-    color:white;
-}
+    <!-- Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Font awsome kit  -->
+    <script src="https://kit.fontawesome.com/80c5d312b4.js" crossorigin="anonymous"></script>
+    <!-- coustome Style  -->
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            ;
+        }
 
-        </style>
+        .proLearner-btn {
+            background-color: #289BDE;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.276);
+            z-index: 1;
+        }
+
+        .course-price {
+            color: #289BDE;
+        }
+    </style>
 </head>
 
 <body>
-<header>
-    <section class=" px-5 bg-light">
-        <nav class="navbar navbar-expand-lg bg-light sticky-top">
-            <div class="container-fluid">
-                <a class="navbar-brand fs-4 fw-semibold" href="#">Pro Learner</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+    <!-- Header Section  -->
+    <header>
+        <!-- Navbar  -->
+        <section class=" px-5 bg-light">
+            <nav class="navbar navbar-expand-lg bg-light fixed-top">
+                <div class="container-fluid">
+                    <a class="navbar-brand fs-4 fw-semibold" href="#">Pro Learner</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Courses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Deals</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="#">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="#">Success</a>
+                            </li>
+                        </ul>
+                        <a class="btn btn-outline-dark fs-5" href="register">Register</a>
+                    </div>
+                </div>
+            </nav>
+        </section>
+        <!-- Slider -->
+        <section class="container ">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class=""></div>
+                        <img src="./images/cover/cover-1.jpg" class="d-block w-100 " alt="...">
+                        <div class="carousel-caption overlay d-md-block">
+                            <div class="  row align-items-center " style="min-height:100%;">
+                                <div class="col-md-12">
+                                    <h3 class="fw-semibold banner-text">Make A Step Now To Reach Your Goal in Time </h3>
+                                    <p>We promise to walk along with you, If you are Determine Are you Dare enough to
+                                        Hold Your FUTURE!!!</p>
+                                    <button class="btn btn-primary proLearner-btn">Get Started</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="./images/cover/cover-2.jpg" class="d-block  w-100" alt="...">
+                        <div class="carousel-caption overlay d-md-block">
+                            <div class=" d-flex row  align-items-center " style="min-height: 100%;">
+                                <div class="col-md-12 ">
+                                    <h3 class="fw-semibold ">Get Started Digital Learning</h3>
+                                    <p class="py-1">Be a Part of One of the largest LEARNING community Now. <br> We are
+                                        Waiting for Welcoming YOU</p>
+                                    <button class="btn btn-primary  banner-btn">Get Started</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/cover/cover-3.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption overlay d-md-block">
+                            <div class=" d-flex row align-items-center" style="min-height: 100%; ">
+                                <div class="col-md-12 ">
+                                    <h3 class="fw-semibold"> Learning Can be fun and Enjoyable with Us. </h3>
+                                    <p> Take your skill one step ahead with the best and Experience instructores. <br>
+                                        Here we Go.....</p>
+                                    <button class="btn btn-primary banner-btn">Get Started</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Courses</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Deals</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link " href="#">About Us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link " href="#">Success</a>
-                        </li>
-                    </ul>
-                   <a class="btn btn-outline-dark fs-5" href="register">Register</a>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+    </header>
+    <main>
+        <!-- Populer Courses  -->
+        <section class="container mt-5">
+            <div class="course-heading text-center">
+                <h2>Take a Look to Our Populer <br> Courses</h2>
+                <p class="px-5"> Start, switch, or advance your career with more than 5,000 courses, World class
+                    Teacher,Professional Certificates.Choose your prefered course in reasonable price . Here are
+                    some demanding courses</p>
+            </div>
+            <div class="courses ">
+                <div class="row g-3">
+                    <!-- Single coures 1 -->
+                    <div class="col-12 col-lg-6">
+                        <div class=" border rounded-2 ">
+                            <div class="row gx-0">
+                                <div class="col-12 col-md-4">
+                                    <img class="img-fluid w-100" src="./images/course/course-1.png" alt="">
+                                </div>
+                                <div class="col-12 col-md-8 text-start ps-3 d-flex align-items-center">
+                                    <div class="course-info ">
+                                        <h3 class="fw-semibold">Fundamental Of UI/UX Design</h3>
+                                        <p>Beginner friendly Zero to Advnce UI/UX Design course .Starting form
+                                            scratch.Cirtifcate Included</p>
+                                        <h4 class="course-price fw-semibold">Price : 99$</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single coures 2 -->
+                    <div class="col-12 col-lg-6">
+                        <div class=" border rounded-2">
+                            <div class="row gx-0">
+                                <div class="col-12 col-md-4">
+                                    <img class="img-fluid w-100" src="./images/course/course-2.png" alt="">
+                                </div>
+                                <div class="col-12 col-md-8 text-start ps-3 d-flex align-items-center">
+                                    <div class=" course-info">
+                                        <h3 class="fw-semibold">Javascript Basic to advanced</h3>
+                                        <p>You can start it with basic knowledge of HTML and CSS .It's Designed for
+                                            beginner so don't worry .</p>
+                                        <h4 class="course-price fw-semibold">Price : 210$</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-3 pt-3">
+                    <!-- Single coures 3 -->
+                    <div class="col-12 col-lg-6">
+                        <div class=" border rounded-2">
+                            <div class="row gx-0">
+                                <div class="col-12 col-md-4">
+                                    <img class="img-fluid w-100" src="./images/course/course-3.png" alt="">
+                                </div>
+                                <div class="col-12 col-md-8 text-start ps-3 d-flex align-items-center">
+                                    <div class="course-info ">
+                                        <h3 class="fw-semibold">Fullstack Web Development</h3>
+                                        <p>You can Build a responsive website on your OWN . It has everything you need
+                                            to know about creat a website</p>
+                                        <h4 class="course-price fw-semibold">Price : 399$</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single coures 4 -->
+                    <div class="col-12 col-lg-6">
+                        <div class=" border rounded-2 ">
+                            <div class="row gx-0">
+                                <div class="col-12 col-md-4">
+                                    <img class="img-fluid w-100" src="./images/course/course-4.png" alt="">
+                                </div>
+                                <div class="col-12 col-md-8 text-start ps-3 d-flex align-items-center">
+                                    <div class=" course-info">
+                                        <h3 class="fw-semibold">Digital Marketing</h3>
+                                        <p>In this course we specialy focus on Social media marketing but if you looking
+                                            detail marketing course Check <a
+                                                href="https://khalidfarhan.com/academy/">This one</a></p>
+                                        <h4 class="course-price fw-semibold">Price : 80$</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single coures 5 -->
+                <div class="row g-3 pt-3">
+                    <div class="col-12 col-lg-6">
+                        <div class=" border rounded-2">
+                            <div class="row gx-0">
+                                <div class="col-12 col-md-4">
+                                    <img class="img-fluid w-100" src="./images/course/course-5.png" alt="">
+                                </div>
+                                <div class="col-12 col-md-8 text-start ps-3 d-flex align-items-center">
+                                    <div class="course-info ">
+                                        <h3 class="fw-semibold">Photography Basic Rules</h3>
+                                        <p>Take a photography course with real world experts. We have classes that will fit any skill level. </p>
+                                        <h4 class="course-price fw-semibold">Price : 199$</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single coures 6 -->
+                    <div class="col-12 col-lg-6">
+                        <div class=" border rounded-2 ">
+                            <div class="row gx-0">
+                                <div class="col-12 col-md-4">
+                                    <img class="img-fluid w-100" src="./images/course/course-6.png" alt="">
+                                </div>
+                                <div class="col-12 col-md-8 text-start ps-3 d-flex align-items-center">
+                                    <div class=" course-info">
+                                        <h3 class="fw-semibold">Motion Graphics</h3>
+                                        <p>A practical structured course on combining frame-by-frame animation and After Effects.</p>
+                                        <h4 class="course-price fw-semibold">Price : 79$</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </nav>
-    </section>
-    <!-- Slider -->
+            <div class="text-center my-4">
+                <button class="btn btn-info proLearner-btn text-white">See more Course</button>
+            </div>
+        </section>
 
-    <section class="container">
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">        
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class=""></div>
-                    <img src="./images/cover/cover-1.jpg" class="d-block w-100 " alt="...">
-                    <div class="carousel-caption overlay d-md-block">
-                        <div class="  row align-items-center" style="min-height: 80vh;">
-                            <div class="col-md-12">
-                                <h3 class="fw-semibold banner-text" >Get Started Digital Learning</h3>
-                                <p>Some representative placeholder content for the second slide.</p>
-                                <button class="btn btn-primary banner-btn">Get Started</button>
+
+
+
+
+
+
+
+
+
+        <section class="container ">
+            <div class="w-50 mx-auto">
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item border mb-3 rounded-1 ">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                aria-controls="flush-collapseOne">
+                                What is difference between FlexBox and Grid?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                demonstrate the
+                                <code>.accordion-flush</code> class. This is the first item's accordion body.
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="carousel-item ">
-                    <img src="./images/cover/cover-2.jpg" class="d-block  w-100" alt="...">
-                    <div class="carousel-caption overlay d-md-block">
-                        <div class=" d-flex row  align-items-center" style="min-height: 80vh;" >
-                            <div class="col-md-12 " >
-                                <h3 class="fw-semibold " >Get Started Digital Learning</h3>
-                                <p>Some representative placeholder content for the second slide.</p>
-                                <button class="btn btn-primary  banner-btn">Get Started</button>
+                    <div class="accordion-item border mb-3 rounded-1">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                aria-controls="flush-collapseTwo">
+                                What is the difference between Tailwind and Bootstrap?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                demonstrate the
+                                <code>.accordion-flush</code> class. This is the second item's accordion body. Let's
+                                imagine this being
+                                filled with some actual content.
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="./images/cover/cover-3.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption overlay d-md-block">
-                        <div class=" d-flex row align-items-center" style="min-height: 80vh;">
-                            <div class="col-md-12">
-                                <h3 class="fw-semibold" >Second slide label</h3>
-                                <p>Some representative placeholder content for the second slide.</p>
-                                <button class="btn btn-primary banner-btn">Get Started</button>
+                    <div class="accordion-item border mb-3 rounded-1">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                aria-controls="flush-collapseThree">
+                                What is CSS Box model?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                demonstrate the
+                                <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing
+                                more exciting
+                                happening here in terms of content, but just filling up the space to make it look, at
+                                least at first
+                                glance, a bit more representative of how this would look in a real-world application.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item border mb-3 rounded-1">
+                        <h2 class="accordion-header" id="flush-headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseFour" aria-expanded="false"
+                                aria-controls="flush-collapseFour">
+                                What is Symantic Tag?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseFour" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                demonstrate the
+                                <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing
+                                more exciting
+                                happening here in terms of content, but just filling up the space to make it look, at
+                                least at first
+                                glance, a bit more representative of how this would look in a real-world application.
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+        </section>
+    </main>
+
+    <footer class="bottom text-center mt-5">
+        <div class="bottom-title ">
+            <h3 class="bottom-item fw-semibold text-muted text-uppercase">Pro Learner</h3>
         </div>
-    </section>
-</header>
+        <div class="links bottom-item">
+            <a href="">Contact Us</a>
+            <a href="">Terms and policy</a>
+            <a href="">Privacy policy</a>
+            <a href="">Privacy Settings</a>
+            <a href="">Goal App</a>
+            <a href="">Goal Live</a>
+        </div>
+        <div class="social-links bottom-item fs-1 my-3">
+            <a target="_blank" href="https://www.facebook.com/"><i class="fa-brands fa-facebook px-5"></i></a>
+            <a target="_blank" href="https://instagram.com/"><i class="fa-brands fa-instagram px-5"></i></a>
+            <a target="_blank" href="https://www.linkedin.com"><i class="fa-brands fa-linkedin-in px-5"></i></a>
+        </div>
+    </footer>
+</body>
 
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
