@@ -21,7 +21,7 @@
     <!-- Header Section  -->
     <header>
         <!-- Navbar  -->
-        <section class=" px-5 bg-light">
+        <section class="container px-5 bg-light">
             <nav class="navbar navbar-expand-lg bg-light fixed-top">
                 <div class="container-fluid">
                     <a class="navbar-brand fs-4 fw-semibold" href="#">Pro Learner</a>
@@ -36,19 +36,19 @@
                                 <a class="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Courses</a>
+                                <a class="nav-link" href="#courses">Courses</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Deals</a>
+                                <a class="nav-link" href="#">Review</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link " href="#">About Us</a>
+                                <a class="nav-link " href="#explore">About Us</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link " href="#">Success</a>
+                                <a class="nav-link " href="#success">Success</a>
                             </li>
                         </ul>
-                        <a class="btn btn-outline-dark fs-5" href="register">Register</a>
+                        <a class="btn btn-outline-dark fs-5" href="#register">Register</a>
                     </div>
                 </div>
             </nav>
@@ -120,7 +120,7 @@
                     Teacher,Professional Certificates.Choose your prefered course in reasonable price . Here are
                     some demanding courses</p>
             </div>
-            <div class="courses ">
+            <div class="courses " id="courses">
                 <div class="row g-3">
                     <!-- Single coures 1 -->
                     <div class="col-12 col-lg-6">
@@ -243,7 +243,7 @@
         </section>
         <!-- Explore section  -->
         <article class="container my-5">
-            <div class="row elearning">
+            <div class="row elearning" id="explore">
                 <div class=" col-12 col-md-5">
                     <img class="w-100 img-fluid" src="./images/working.png" alt="">
                 </div>
@@ -288,7 +288,7 @@
 
         <!-- registration Section  -->
         <section class="container  my-5" id="register">
-            <div class=" row registertion rounded-2 align-items-center">
+            <div class=" row registration rounded-2 align-items-center">
                 <div class="col-lg-6 col-12 text-light  p-5 text-lg-start text-center ">
                     <h2 class=" fs-1 fw-bold"> Ready To Join?</h2>
                     <p>It is a long established fact that a reader will be distracted by the readable content of a page
@@ -314,8 +314,8 @@
                                     <label for="name" class="col-form-label">Name:</label>
                                     <input type="text" class="form-control" id="recipient-name" placeholder="Your Full Name"
                                         required>
-                                    <label for="recipient-name" class="col-form-label">Your email:</label>
-                                    <input type="text" class="form-control" id="recipient-name" placeholder="E-mail" required>
+                                    <label for="mail" class="col-form-label">Your email:</label>
+                                    <input type="email" class="form-control" id="recipient-name" placeholder="E-mail" required>
                                 </div>
                                 <div class="mb-3">
                                     <label for="recipient-name" class="col-form-label">Number:</label>
@@ -327,12 +327,53 @@
                         </div>
                         <div class="modal-footer border border-0">
                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Submit</button>
+                            <button type="button" class="btn proLearner-btn">Submit</button>
                         </div>
                     </div>
                 </div>
             </div>
 
+        </section>
+        <!-- successfull student  -->
+        <section class="container my-5" id="success">
+            <div class="row row-cols-1 row-cols-lg-4 row-cols-md-2 g-3 ">
+                <div class="col ">
+                    <div class="card ">
+                        <img src="./images/student/student-1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title">Roney Khan</h4>
+                            <p class="card-text">UI/UX Designer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="./images/student/student-2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title"> Michel Junne</h4>
+                            <p class="card-text">Photograper</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="./images/student/student-3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title">Kavin Pawn</h4>
+                            <p class="card-text">Graphics Designer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="./images/student/student-4.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title">Nidi Moon</h4>
+                            <p class="card-text">Web Developer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <!-- F A Q section  -->

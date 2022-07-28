@@ -21,18 +21,7 @@
       color: #289BDE;
   }
 
-  .fa-brands {
-      padding: 5px;
-      border: 2px solid #289BDE;
-      border-radius: 25%;
-      color: #289BDE;
-  }
-
-  .fa-brands:hover {
-      border: none;
-  }
-
-  .registertion {
+  .registration {
       background-color: #289BDE;
   }
 
@@ -44,3 +33,13 @@
   .elearning {
       background-color: #F4FAFD;
   }
+.fa-brands {
+    padding: 5px;
+    border: 2px solid #289BDE;
+    border-radius: 25%;
+    color: #289BDE;
+}
+
+.fa-brands:hover {
+    border: none;
+}
