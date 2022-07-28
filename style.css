@@ -1,0 +1,46 @@
+  body {
+      font-family: 'Poppins', sans-serif;
+      ;
+  }
+
+  .proLearner-btn {
+      background-color: #289BDE;
+  }
+
+  .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.276);
+      z-index: 1;
+  }
+
+  .course-price {
+      color: #289BDE;
+  }
+
+  .fa-brands {
+      padding: 5px;
+      border: 2px solid #289BDE;
+      border-radius: 25%;
+      color: #289BDE;
+  }
+
+  .fa-brands:hover {
+      border: none;
+  }
+
+  .registertion {
+      background-color: #289BDE;
+  }
+
+  .join-btn {
+      color: #289BDE;
+      padding: 10px 60px;
+  }
+
+  .elearning {
+      background-color: #F4FAFD;
+  }
