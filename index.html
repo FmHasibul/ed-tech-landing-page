@@ -48,6 +48,14 @@
         .fa-brands:hover {
             border: none;
         }
+
+        .registertion {
+            background-color: #289BDE;
+        }
+        .join-btn{
+            color: #289BDE;
+            padding: 10px 60px;
+        }
     </style>
 </head>
 
@@ -275,16 +283,56 @@
                 <button class="btn btn-info proLearner-btn text-white">See more Course</button>
             </div>
         </section>
+        <!-- registration Section  -->
+        <section class="container  my-5" id="register">
+            <div class=" row registertion rounded-2 align-items-center">
+                <div class="col-lg-6 col-12 text-light  p-5 text-lg-start text-center ">
+                    <h2 class=" fs-1 fw-bold"> Ready To Join?</h2>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking at its
+                        layout.</p>
+                </div>
+                <div class="col-lg-6 col-12 p-5 text-lg-end text-center">
+                    <button type="button" class="btn btn-light join-btn" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                        data-bs-whatever="@mdo">Register</button>
+                </div>
+            </div>
+            <!-- Sign Up Modal  -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title " id="exampleModalLabel">Sign Up</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="name" class="col-form-label">Name:</label>
+                                    <input type="text" class="form-control" id="recipient-name" placeholder="Your Full Name"
+                                        required>
+                                    <label for="recipient-name" class="col-form-label">Your email:</label>
+                                    <input type="text" class="form-control" id="recipient-name" placeholder="E-mail" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="recipient-name" class="col-form-label">Number:</label>
+                                    <input type="number" class="form-control" id="recipient-name"
+                                        placeholder="Number without country code" required>
+                                </div>
+            
+                            </form>
+                        </div>
+                        <div class="modal-footer border border-0">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+        </section>
 
-
-
-
-
-
-
-
-
+        <!-- F A Q section  -->
         <section class="container ">
             <div class="faq text-center">
                 <h2 class="fw-semibold display-6">Frequently Asked Questions</h2>
@@ -367,8 +415,9 @@
                 </div>
             </div>
         </section>
+        
     </main>
-
+    <!-- page footer  -->
     <footer class="text-center mt-5 bg-dark">
         <div class="py-5">
             <div class="bottom-title ">
@@ -386,7 +435,8 @@
             <div class="social-links bottom-item fs-1 my-3 text-muted">
                 <a target="_blank" href="https://www.facebook.com/"><i class="fa-brands fa-facebook fs-4 mx-5"></i></a>
                 <a target="_blank" href="https://instagram.com/"><i class="fa-brands fa-instagram fs-4 mx-5"></i></a>
-                <a target="_blank" href="https://www.linkedin.com"><i class="fa-brands fa-linkedin-in fs-4 mx-5"></i></a>
+                <a target="_blank" href="https://www.linkedin.com"><i
+                        class="fa-brands fa-linkedin-in fs-4 mx-5"></i></a>
                 <a target="_blank" href="https://twitter.com/"><i class="fa-brands fa-twitter fs-4 mx-5"></i></a>
             </div>
         </div>
